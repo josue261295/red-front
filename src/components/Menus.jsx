@@ -31,6 +31,7 @@ const Menus = () => {
 
     <nav class="menu-nav">
       <ul>
+      <li class="menu-titles">Monitoreo</li>
         <li class="menu-titles">principal</li>
         <li class="menu-items"><a href="#"><i class='fa fa-tachometer  menu-nav--icon fa-fw'></i><span>Red</span></a>
           <a href='#' class="menu-boton"><i class='fa fa-caret-right'></i></a>

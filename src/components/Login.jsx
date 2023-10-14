@@ -20,9 +20,7 @@ const Login = () => {
   const handleSubmit = (event) => {
     event.preventDefault()
     // Aquí puedes agregar la lógica para verificar las credenciales del usuario
-    // Por ejemplo, puedes hacer una solicitud a un servidor para autenticar al usuario.
-    // Luego, puedes redirigir al usuario a la página de inicio si las credenciales son válidas.
-    // Aquí, por simplicidad, solo imprimiremos las credenciales en la consola.
+    
     navigate("menu")
     
     }
