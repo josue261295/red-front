@@ -1,0 +1,151 @@
+
+
+
+h2 {
+    color: rgb(76, 76, 234);
+    
+}
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    margin-top: 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+ /* estilos del menu */
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  /* Contenedor principal */
+  .contenedor {
+    display: flex;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  /* Barra lateral (sidebar) */
+  .sidebar {
+    width: 250px;
+    background-color: #2d2d2d;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .logo {
+    text-align: center;
+  }
+  
+  .logo i {
+    margin-right: 5px;
+    font-size: 24px;
+  }
+  
+  .user {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .user img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .menu-nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu-titles {
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  
+  .menu-items {
+    margin-top: 10px;
+  }
+  
+  .menu-items a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px 0;
+  }
+  
+  .menu-items i {
+    margin-right: 10px;
+  }
+  
+  /* Contenido principal (main) */
+  .main {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .menu-toggle {
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  /* Tabla */
+  .table {
+    width: 100%;
+  }
+  
+  /* Estilos adicionales según sea necesario */
+  
